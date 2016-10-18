@@ -1,0 +1,84 @@
+---
+---
+
+@import "minima";
+
+$border-color: #4b6a88;
+
+@page {
+  size: A4 landscape;
+  marks: cross;
+  bleed: 1cm;
+}
+
+.cards-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  > h1 {
+    margin: 3em 10px;
+    width: 100%;
+  }
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+}
+
+.card {
+  border: 1px solid $border-color;
+  border-radius: 1em;
+  background: white;
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  min-height: 3.5in;
+  max-height: 3.5in;
+  margin: 10px auto;
+  min-width: 2.5in;
+  max-width: 2.5in;
+  break-inside: avoid;
+
+  :last-child {
+    margin-bottom: none;
+  }
+
+  .card__title,
+  .card__icon {
+    flex: 1;
+    text-align: center;
+  }
+
+  .card__title {
+    vertical-align: middle;
+    border-top: 1px solid $border-color;
+    max-height: 3em;
+    padding-top: 1.5em;
+    order: 90;
+  }
+}
+
+@media print {
+  .site-header,
+  .site-footer,
+  .cards-list > h1 {
+    display: none;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  .cards-list {
+    display: block;
+  }
+
+  .card {
+    display: inline-block;
+    flex: none;
+    widows: 0;
+    margin: .05cm;
+  }
+}

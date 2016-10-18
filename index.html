@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<section class="cards-list">
+  <h1>Colours</h1>
+
+  {% for card in site.data.colours %}
+    {% include card.html card=card %}
+  {% endfor %}
+</section>
+
+
+<section class="cards-list">
+  <h1>Nose</h1>
+
+  {% for card in site.data.nose %}
+    {% include card.html card=card %}
+  {% endfor %}
+</section>
+
+<section class="cards-list">
+  <h1>Taste</h1>
+
+  {% for card in site.data.taste %}
+    {% include card.html card=card %}
+  {% endfor %}
+</section>
+
+<section class="cards-list">
+  <h1>Pairing</h1>
+
+  {% for card in site.data.pairing %}
+    {% include card.html card=card %}
+  {% endfor %}
+</section>
+
+<section class="cards-list">
+  <h1>Price</h1>
+
+  {% for card in site.data.price %}
+    {% include card.html card=card %}
+  {% endfor %}
+</section>

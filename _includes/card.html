@@ -1,0 +1,8 @@
+{% assign card = include.card %}
+<article class="card card--{{ card.Family | downcase }}">
+  <h1 class="card__title">{{ card.Titre }}</h1>
+
+  <div class="card__icon">
+    {% include svg-icon.html icon=card.Medaillon %}
+  </div>
+</article>
