@@ -1,19 +1,15 @@
 Type,Family,Titre,Texte,Medaillon,,Couleur
-Carte,Taste,Floral,"Blossom, rose, violet",taste,,
-Carte,Taste,Green Fruit,"Apple, Pear, Gooseberry, Grape",taste,,
-Carte,Taste,Citrus Fruit,"Lemon, Lime, Grapefruit",taste,,
-Carte,Taste,Stone Fruit,"Peach, Apricot, Nectarine",taste,,
-Carte,Taste,Tropical Fruit,"Banana, Lychee, Mango, Melon, Passion Fruit, Pineapple",taste,,
-Carte,Taste,Red Fruit,"Redcurrant, Cranberry, Rasberry, Strawberry, Red cherry, plum",taste,,
-Carte,Taste,Black Fruit,"Blackcurrant, Blackberry, Blueberry, Black cherry",taste,,
-Carte,Taste,Dried Fruit,"Fig, Prune, Raisin, Sultana, Kirsch",taste,,
-Carte,Taste,Herbaceous,"Grass, Asparagus, Leaf",taste,,
-Carte,Taste,Herbal,"Eucalyptus, Mint, Medicinal, Fennel, Dill",taste,,
-Carte,Taste,Spice,"Cinnamon, Cloves, Ginger, Nutmag, Vanilla, pepper, liquorice, juniper",taste,,
-Carte,Taste,Autolytic,"Yeast, Biscuit, Bread, Toast, Pastry, Lees",taste,,
-Carte,Taste,Dairy,"Butter, Cheese, Cream, Yogurt",taste,,
-Carte,Taste,Oak,"Vanilla, Toast, Cedar, Charred wood, Smoke, Resinious",taste,,
-Carte,Taste,Kernel,"Almond, Coconut, Hazelnut, Walnut, Chocolate, Coffee",taste,,
-Carte,Taste,Animal,"Leather, Meaty, Farmyard",taste,,
-Carte,Taste,Maturity,"Vegetal, Mushroom, wet leaves, Forest Floor, Game, Savoury, Tobacco, Cedar, Honey",taste,,
-Carte,Taste,Mineral,"Earth, Petrol, Rubber, Tar, Stone/Steely, Wet wool",taste,,
+Carte,Taste,Floral,"Blossom, rose, violet",taste,,white,red
+Carte,Taste,Green Fruit,"Apple, Pear, Gooseberry, Grape",taste,,white
+Carte,Taste,Citrus Fruit,"Lemon, Lime, Grapefruit",taste,,white
+Carte,Taste,Stone Fruit,"Peach, Apricot, Nectarine",taste,,white
+Carte,Taste,Tropical Fruit,"Banana, Lychee, Mango, Melon, Passion Fruit, Pineapple",taste,,white
+Carte,Taste,Red Fruit,"Redcurrant, Cranberry, Rasberry, Strawberry, Red cherry, plum",taste,,red
+Carte,Taste,Black Fruit,"Blackcurrant, Blackberry, Blueberry, Black cherry",taste,,red
+Carte,Taste,Dried Fruit,"Fig, Prune, Raisin, Sultana, Kirsch",taste,,red
+Carte,Taste,Herbaceous,"Grass, Asparagus, Leaf",taste,,white,red
+Carte,Taste,Herbal,"Eucalyptus, Mint, Medicinal, Fennel, Dill",taste,,white,red
+Carte,Taste,Spice,"Cinnamon, Cloves, Ginger, Nutmag, Vanilla, pepper, liquorice, juniper",taste,,white,red
+Carte,Taste,Autolytic/Dairy,"Yeast, Biscuit, Bread, Butter, Cream, Yogurt",taste,,white,red
+Carte,Taste,Oak,"Vanilla, Toast, Cedar, Smoke, Coconut, Cocolate, Coffee",taste,,white,red
+
