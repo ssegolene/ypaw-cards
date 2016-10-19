@@ -1,7 +1,7 @@
-Type,Family,Titre,Texte,Medaillon,,Couleur
-Carte,Colour,Lemon,,colour,,
-Carte,Colour,Gold,,colour,,
-Carte,Colour,Amber,,colour,,
-Carte,Colour,Purple,,colour,,
-Carte,Colour,Ruby,,colour,,
-Carte,Colour,Garnet,,colour,,
+Type,Family,WineColour,Titre,Texte,Image,Medaillon,,Couleur
+Carte,Colour,,Lemon,,lemon.png,colour,,
+Carte,Colour,,Gold,,gold.png,colour,,
+Carte,Colour,,Amber,,amber.png,colour,,
+Carte,Colour,,Purple,,purple.png,colour,,
+Carte,Colour,,Ruby,,ruby.png,colour,,
+Carte,Colour,,Garnet,,garnet.png,colour,,

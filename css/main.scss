@@ -4,11 +4,12 @@
 @import "minima";
 
 $border-color: #4b6a88;
+$border-radius: 5px;
 
 @page {
   size: A4 landscape;
   marks: cross;
-  bleed: 1cm;
+  bleed: .9cm;
 }
 
 .cards-list {
@@ -28,8 +29,8 @@ $border-color: #4b6a88;
 }
 
 .card {
-  border: 1px solid $border-color;
-  border-radius: 1em;
+  border: 2px solid $border-color;
+  border-radius: $border-radius;
   background: white;
   display: flex;
   flex: 1;
@@ -39,24 +40,33 @@ $border-color: #4b6a88;
   margin: 10px auto;
   min-width: 2.5in;
   max-width: 2.5in;
+  position: relative;
+  text-align: center;
   break-inside: avoid;
-
-  :last-child {
-    margin-bottom: none;
-  }
 
   .card__title,
   .card__icon {
     flex: 1;
     text-align: center;
+    z-index: 999;
+  }
+
+  .card__illustration {
+    position: absolute;
+    top: .7in;
+    width: 100%;
+    z-index: 0;
   }
 
   .card__title {
-    vertical-align: middle;
-    border-top: 1px solid $border-color;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    border-top: 2px solid $border-color;
+    font-weight: bold;
+    margin-bottom: 0;
     max-height: 3em;
-    padding-top: 1.5em;
     order: 90;
+    padding-top: 1.5em;
   }
 }
 
@@ -76,9 +86,9 @@ $border-color: #4b6a88;
   }
 
   .card {
-    display: inline-block;
     flex: none;
+    float: left;
     widows: 0;
-    margin: .05cm;
+    margin: .03cm;
   }
 }

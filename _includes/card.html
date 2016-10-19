@@ -2,6 +2,12 @@
 <article class="card card--{{ card.Family | downcase }}">
   <h1 class="card__title">{{ card.Titre }}</h1>
 
+  {% if card.Image %}
+  <div class="card__illustration">
+    <img src="{{ site.baseurl}}/assets/{{ include.type }}/{{ card.Image }}" alt="">
+  </div>
+  {% endif %}
+
   <div class="card__icon">
     {% include svg-icon.html icon=card.Medaillon %}
   </div>
